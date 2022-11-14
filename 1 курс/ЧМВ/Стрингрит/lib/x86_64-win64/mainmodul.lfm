@@ -1,0 +1,83 @@
+object MainForm: TMainForm
+  Left = 1317
+  Height = 419
+  Top = 232
+  Width = 461
+  Caption = 'Матрица'
+  ClientHeight = 394
+  ClientWidth = 461
+  DesignTimePPI = 120
+  Menu = MainMenu1
+  LCLVersion = '2.0.10.0'
+  object LabelHigh: TLabel
+    Left = 16
+    Height = 20
+    Top = 72
+    Width = 123
+    Caption = 'Количество строк'
+    ParentColor = False
+    ParentFont = False
+  end
+  object LabelWidth: TLabel
+    Left = 16
+    Height = 20
+    Top = 120
+    Width = 142
+    Caption = 'Количество стобцов'
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditHigh: TEdit
+    Left = 168
+    Height = 28
+    Top = 64
+    Width = 100
+    ParentFont = False
+    TabOrder = 0
+    Text = '3'
+  end
+  object EditWidth: TEdit
+    Left = 168
+    Height = 28
+    Top = 112
+    Width = 100
+    ParentFont = False
+    TabOrder = 1
+    Text = '4'
+  end
+  object MainButton: TButton
+    Left = 16
+    Height = 42
+    Top = 8
+    Width = 160
+    Caption = 'Создать матрицу'
+    OnClick = MainButtonClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object StringGrid: TStringGrid
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 16
+    Height = 214
+    Top = 168
+    Width = 433
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Right = 12
+    BorderSpacing.Bottom = 12
+    FixedCols = 0
+    FixedRows = 0
+    ParentFont = False
+    TabOrder = 3
+  end
+  object MainMenu1: TMainMenu
+    Left = 392
+    Top = 40
+    object MenuInfo: TMenuItem
+      Caption = 'О разработчике'
+      OnClick = MenuInfoClick
+    end
+  end
+end

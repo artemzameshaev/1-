@@ -1,0 +1,34 @@
+unit Uz466;
+
+interface
+type
+  string1=string[80];
+ procedure Zaena_Sivalov (var s:string1; l:integer);
+ procedure Vivod_Zamen_Sim (var s: string1; var ftxt:TextFile);
+
+
+implementation
+
+
+{процедура котора€ замен€ет 1 на 0 и 0 на 1}
+ procedure Zaena_Sivalov (var s:string1; l:integer);
+ var
+ i,n: integer;
+ begin
+ n:= length (s);
+ for i:=l to n do
+   if s[i] = '1' then
+       s[i]:= '0'
+ else
+     if (s[i]='0') then s[i]:= '1';
+ end;
+
+
+    {вывод полученной строки}
+ procedure Vivod_Zamen_Sim (var s: string1; var ftxt:TextFile);
+ begin
+ writeln (ftxt,' ѕолученна€ замена',s);
+ end;
+
+
+end.

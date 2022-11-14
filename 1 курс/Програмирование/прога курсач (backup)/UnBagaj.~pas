@@ -1,0 +1,188 @@
+unit UnBagaj;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Menus, UzBagaj;
+
+type
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    OpenDialog1: TOpenDialog;
+    FIle1: TMenuItem;
+    OpenTxtFile1: TMenuItem;
+    CloseTxtFile1: TMenuItem;
+    List1: TMenuItem;
+    BuildList1: TMenuItem;
+    SaveListTxt1: TMenuItem;
+    Delete1: TMenuItem;
+    DelList1: TMenuItem;
+    N2: TMenuItem;
+    N3: TMenuItem;
+    N1: TMenuItem;
+    N4: TMenuItem;
+    N11: TMenuItem;
+    N5: TMenuItem;
+    N6: TMenuItem;
+    procedure OpenTxtFile1Click(Sender: TObject);
+    procedure CloseTxtFile1Click(Sender: TObject);
+    procedure BuildList1Click(Sender: TObject);
+    procedure DelList1Click(Sender: TObject);
+    procedure SaveListTxt1Click(Sender: TObject);
+    procedure N1Click(Sender: TObject);
+    procedure N4Click(Sender: TObject);
+    procedure N2Click(Sender: TObject);
+    procedure N3Click(Sender: TObject);
+    procedure N11Click(Sender: TObject);
+    procedure N6Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fTip: FZap;    //для типизи-го файла
+  Form1: TForm1;
+  //PList: PUzel; //указатель на список
+  ftxt: TextFile;  //файловая переменная
+
+
+implementation
+
+{$R *.dfm}
+ {открытие тестового файла}
+procedure TForm1.OpenTxtFile1Click(Sender: TObject);
+var
+ s: string;
+ i: Integer;
+begin
+  if OpenDialog1.Execute then
+  begin
+    s := OpenDialog1.FileName;
+    AssignFile(ftxt,s);
+
+    append(ftxt);
+
+    i:=IOResult;
+    if i <> 0 then
+      begin
+        AssignFile(ftxt,s+'.txt');
+        rewrite(ftxt)
+      end;
+  end;
+end;
+
+ {закрытие тестового файла}
+procedure TForm1.CloseTxtFile1Click(Sender: TObject);
+begin
+ CloseFile(ftxt);
+end;
+
+    {построение списка}
+procedure TForm1.BuildList1Click(Sender: TObject);
+begin
+  BuildSpisok(f,ftip);
+end;
+
+  {Удаление списка}
+procedure TForm1.DelList1Click(Sender: TObject);
+begin
+  DelSpisok(f);
+end;
+
+   {Сохранение в текст файл}
+procedure TForm1.SaveListTxt1Click(Sender: TObject);
+begin
+writeln(ftxt,'Содержимое двусвязанного списка ');
+ WriteSpText(f,ftxt);
+ writeln(ftxt,' ')
+end;
+
+ {открытие типизированного файла}
+procedure TForm1.N1Click(Sender: TObject);
+var
+ s: string;
+ i: Integer;
+begin
+  if OpenDialog1.Execute then
+  begin
+    s := OpenDialog1.FileName;
+    AssignFile(Ftip,s);
+
+    Reset(Ftip);
+
+    i:=IOResult;
+    if i <> 0 then
+      begin
+        AssignFile(Ftip,s+'.dat');
+        rewrite(Ftip)
+      end;
+  end;
+end;
+
+     {закрытие типизированного файла}
+procedure TForm1.N4Click(Sender: TObject);
+begin
+  CloseTipFile (fTip);
+end;
+
+  {Вывод в типизированный файл}
+procedure TForm1.N2Click(Sender: TObject);
+begin
+  WriteTipFile (f,fTip);
+end;
+
+   {Чтение типизированного файла}
+procedure TForm1.N3Click(Sender: TObject);
+begin
+  ReadTipFile (f,fTip);
+end;
+
+procedure TForm1.N11Click(Sender: TObject);
+var
+t: Puzel;
+Number: integer;
+r:Puzel;
+i:integer;
+begin
+Number:= StrToint (InputBox ('Номер элемента','Введите номер элемнта',''));
+t:= f;
+for i:=1 to Number-2 do
+t:= t^.next;
+delelement(t,r);
+
+end;
+
+
+
+procedure TForm1.N6Click(Sender: TObject);
+var
+Redakt: integer;
+t: Puzel;
+i:integer;
+u: Zak;
+VodRedakt: integer;
+
+begin
+ Redakt:= StrTOint (InputBox ('Редактировние списка','Введите номер ред-го элемента',''));
+  for i:=1 to Redakt-2 do
+   t:= t^.next;
+   u:= t^.x;
+  // VodRedakt:= StrTOint (InputBox ('Редактирование элемента','Введите новые данные элемента','',);
+
+   u.Number:= StrToInt(InputBox ('Введите номер заказа','',''));     //Ввод номера стола (с выводом на экран окна ввода)
+   u.FIO:= InputBox('Введите ФИО официанта',' ',' ');                 //Ввод ФИО офицанта (с выводом на экран окна ввода)
+   u.Zakaz:= InputBox('Введите список заказанныз блюд',' ',' ');       //Ввод Заказанных блюд (с выводом на экран окна ввода)
+   u.SumZak:= StrToFloat(InputBox('Введите сумму заказа',' ',' '));    //Ввод суммы заказа (с выводом на экран окна ввода)
+   t^.x:= u;
+
+
+
+
+
+
+end;
+
+end.

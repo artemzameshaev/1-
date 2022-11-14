@@ -1,0 +1,49 @@
+unit Uz2694;
+interface
+ type
+  matr = array[1..100, 1..100] of integer;
+  {ввод матрицы}
+procedure Zap_matr(var a: matr; n: integer);
+{вывод матрицы в текст файл}
+procedure print_matr_file(a: matr; n: integer; var f: TextFile);
+{вывод в текст файл}
+procedure OpenTextFile(var ftxt: TextFile; t: string);
+
+implementation
+uses Dialogs;
+
+ {ввод матрицы}
+procedure Zap_matr(var a: matr; n: integer);
+var
+  i: integer;
+begin
+  for i := 1 to n do 
+    a[i, i] := n - i + 1; // заполнение элементов главной диагонали
+end;
+
+
+
+{вывод матрицы в текст файл}
+procedure print_matr_file(a: matr; n: integer; var f: TextFile);
+var
+  i, j: integer;
+begin
+  for i := 1 to n do //перебор строк
+    for j := 1 to n do //перебор столбцов
+      if j = n then 
+      begin
+        writeln(f, a[i, j]:3);  //вывод в тектс файл 
+      end
+       else
+      begin
+        write(f, a[i, j]:3); //вывод в тектс файл   
+      end;
+end;
+
+{вывод в текст файл}
+procedure OpenTextFile(var ftxt: TextFile; t: string);
+begin
+  assign(ftxt, t);
+  append(ftxt);
+end;
+end.

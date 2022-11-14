@@ -1,0 +1,20 @@
+C:\Users\User\Desktop\270б Форма\270б Форма\obj\Debug\270б Форма.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\270б Форма\270б Форма\obj\Debug\_270б_Форма.Form1.resources
+C:\Users\User\Desktop\270б Форма\270б Форма\obj\Debug\_270б_Форма.Properties.Resources.resources
+C:\Users\User\Desktop\270б Форма\270б Форма\obj\Debug\270б Форма.csproj.GenerateResource.cache
+C:\Users\User\Desktop\270б Форма\270б Форма\obj\Debug\270б Форма.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\270б Форма\270б Форма\bin\Debug\270б Форма.exe.config
+C:\Users\User\Desktop\270б Форма\270б Форма\bin\Debug\270б Форма.exe
+C:\Users\User\Desktop\270б Форма\270б Форма\bin\Debug\270б Форма.pdb
+C:\Users\User\Desktop\270б Форма\270б Форма\obj\Debug\270б Форма.exe
+C:\Users\User\Desktop\270б Форма\270б Форма\obj\Debug\270б Форма.pdb
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\bin\Debug\270б Форма.exe.config
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\bin\Debug\270б Форма.exe
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\bin\Debug\270б Форма.pdb
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\obj\Debug\270б Форма.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\obj\Debug\_270б_Форма.Form1.resources
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\obj\Debug\_270б_Форма.Properties.Resources.resources
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\obj\Debug\270б Форма.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\obj\Debug\270б Форма.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\obj\Debug\270б Форма.exe
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\270б Форма+\270б Форма\obj\Debug\270б Форма.pdb

@@ -1,0 +1,30 @@
+C:\Users\User\Desktop\65 проект\65 проект\bin\Debug\65 проект.exe.config
+C:\Users\User\Desktop\65 проект\65 проект\bin\Debug\65 проект.exe
+C:\Users\User\Desktop\65 проект\65 проект\bin\Debug\65 проект.pdb
+C:\Users\User\Desktop\65 проект\65 проект\obj\Debug\65 проект.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\65 проект\65 проект\obj\Debug\_65_проект.Form1.resources
+C:\Users\User\Desktop\65 проект\65 проект\obj\Debug\_65_проект.Properties.Resources.resources
+C:\Users\User\Desktop\65 проект\65 проект\obj\Debug\65 проект.csproj.GenerateResource.cache
+C:\Users\User\Desktop\65 проект\65 проект\obj\Debug\65 проект.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\65 проект\65 проект\obj\Debug\65 проект.exe
+C:\Users\User\Desktop\65 проект\65 проект\obj\Debug\65 проект.pdb
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\bin\Debug\65 проект.exe.config
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\bin\Debug\65 проект.exe
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\bin\Debug\65 проект.pdb
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\obj\Debug\65 проект.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\obj\Debug\_65_проект.Form1.resources
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\obj\Debug\_65_проект.Properties.Resources.resources
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\obj\Debug\65 проект.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\obj\Debug\65 проект.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\obj\Debug\65 проект.exe
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\65 проект\65 проект\obj\Debug\65 проект.pdb
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\bin\Debug\65 проект.exe.config
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\bin\Debug\65 проект.exe
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\bin\Debug\65 проект.pdb
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\obj\Debug\65 проект.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\obj\Debug\_65_проект.Form1.resources
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\obj\Debug\_65_проект.Properties.Resources.resources
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\obj\Debug\65 проект.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\obj\Debug\65 проект.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\obj\Debug\65 проект.exe
+C:\Users\User\Desktop\Учеба\1 курс\Програмирование\Летняя практика\С#\65 проект+\65 проект\obj\Debug\65 проект.pdb

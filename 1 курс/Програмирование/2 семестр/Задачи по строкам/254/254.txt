@@ -1,0 +1,29 @@
+uses SysUtils, Dialogs; //Модули для ввода/вывода данных
+type
+ Bag = record //Тип багажа
+ Fam, Nam, Otch : string[20]; //Фио клиента
+ ColV: byte; //Количество вещей в багаже
+ VesV: real; //Вес вещей в багаже
+ Npasp: string[20]; //Серия и номер паспорта клиента
+ end;
+ PUzel = ^Zp2; //Тип указателя на узел
+
+Zp2 = record //Тип узла списка
+ x: Bag; //Сведения о багаже
+ next: PUzel; //Указатель на следующий узел
+ pred: PUzel; //Указатель на предыдущий узел
+ end;
+ FZap = file of Bag; //Файловый тип для хранения данных о багаже
+ {Операции для работы с двусвязанным списком }
+ procedure AddFirst(var f: PUzel; a: PUzel);{Вставить узел a первым в список}
+ procedure AddAfter(var old:PUzel; a: PUzel);{Вставить узел a после old}
+ {Построить список; f -указатель на голову списка}
+ procedure BuildSpisok(var f: PUzel);
+ {Вывод списка в текстовый файл}
+ procedure WriteSpText(var f: PUzel;var ftxt:Text);
+ {Выделить из списка первый узел и вернуть его пользователю}
+ procedure DelFirstElement(var f,a: PUzel);
+ {Выделить из списка узел,следующий за узлом old и вернуть его пользователю}
+ procedure DelElement(var old,a: PUzel);
+ procedure DelSpisok(var f: PUzel); //Удалить списокТаких членов последовательности нет
+Таких членов последовательности нет

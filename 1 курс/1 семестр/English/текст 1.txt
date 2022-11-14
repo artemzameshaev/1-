@@ -1,0 +1,16 @@
+A computer is a universal device for working with information. According to the principles of its structure, a computer is a model of a person working with information.
+A personal computer (PC) is a computer designed to serve one workplace. In terms of its characteristics, it may differ from large computers, but it is functionally capable of performing similar operations.
+Computer device. 
+input devices
+information processing devices
+storage devices
+information output devices.
+ Structurally, these parts can be combined in one book-sized case, or each part can consist of several rather bulky devices.
+Basic PC hardware configuration. The basic hardware configuration of a personal computer is the minimum set of hardware that is sufficient to start working with a computer. Over time, the concept of a basic configuration gradually changes.
+Most often, a personal computer consists of the following devices:
+System unit        Monitor        Keyboard              Mouse
+Additionally, other devices for input and output of information can be connected, for example, speakers, a printer, a scanner ...
+The system unit is the main unit of the computer system. It contains devices that are considered internal. Devices connected to the system unit from the outside are considered external. The term peripheral equipment is also used for external devices.
+Monitor is a device for visual reproduction of symbolic and graphic information. Serves as an output device. For desktop PCs, the most common monitors are currently based on cathode ray tubes. They vaguely resemble household TVs.
+A keyboard is a keyboard device designed to control the operation of a computer and enter information into it. Information is entered in the form of alphanumeric character data.
+The mouse is a "graphical" control device.

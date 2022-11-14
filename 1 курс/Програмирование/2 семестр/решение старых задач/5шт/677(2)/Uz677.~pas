@@ -1,0 +1,90 @@
+unit Uz677;
+
+interface
+    const
+    n= 1;
+  type
+  matr = array [1..n, 1..n] of real;
+
+ {заполнение рандомными числами матрицы А}
+procedure zapMatrA(var a: matr; n: integer);
+ {функция расчета элемента i,j матрицы b}
+function matr1(var a: matr; i, j: integer): real;
+ {расчет матрицы b}
+procedure matrB(var b, a: matr; n: integer);
+ {вывод матрицы в текст файл А В}
+procedure vivodMatr(var a: matr; n: integer; var ftxt: TextFile);
+ {открытие текстового файла}
+procedure OpenTextFile(var ftxt: TextFile; t: string);
+
+implementation
+
+  {заполнение рандомными числами матрицы А}
+procedure zapMatrA(var a: matr; n: integer);
+var
+i,j:integer;
+begin
+  randomize;
+  for i := 1 to n do
+    for j := 1 to n do
+      a[i, j] := random(10);
+end;
+
+{функция расчета элемента i,j матрицы b}
+function matr1(var a: matr; i, j: integer): real;
+var
+  sum: real;
+  k,l:integer;
+begin
+  sum := 0; //обнуляем сумму
+  if i = j then matr1 := a[i, j]
+  else if i < j then
+  begin
+    for k := i to j do //обход матрицы поэлементно
+      for l := i to j do // ограниченная i,j
+        sum := sum + a[k, l]; // сумма элементов в области
+    matr1 := sum;
+  end
+  else
+  begin
+    for k := j to i do
+      for l := j to i do
+        sum := sum + a[k, l]; //расчет суммы
+    matr1 := sum;
+  end;
+end;
+
+  {расчет матрицы b}
+procedure matrB(var b, a: matr; n: integer);
+var
+i,j:integer;
+begin
+  for i := 1 to n do // обход строк матрици В
+    for j := 1 to n do //присвоить к каждому элементу матрицы В строки i
+
+      b[i, j] := matr1(a, i, j);
+ 
+end;
+
+ {вывод матрицы в текст файл А В}
+procedure vivodMatr(var a: matr; n: integer; var ftxt: TextFile);
+var
+i,j: integer;
+begin
+  for i := 1 to n do
+
+  begin
+    for j := 1 to n do
+      write(ftxt, a[i, j]:4, ' ');
+    writeln(ftxt, ' ');
+  end;
+end;
+
+
+procedure OpenTextFile(var ftxt: TextFile; t: string);
+begin
+  assign(ftxt, t);
+  append(ftxt);
+end;
+
+end.

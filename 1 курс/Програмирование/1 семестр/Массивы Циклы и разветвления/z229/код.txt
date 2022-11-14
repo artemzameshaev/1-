@@ -1,0 +1,45 @@
+229 Даны действительные числа x, y (x >0, y >1). Получить целое число k (пложительное, отрицательное или равное нулю), 
+удовлетворяющее условию y^k-1 ≤ x < y^k.
+
+
+type
+     Mass = array[1..100] of integer;
+var 
+     x, y, k1, k2, i:integer;
+     a: mass;
+     ftxt: text;
+begin
+     assign (ftxt,'z229.txt');
+     readln (x,y);
+     append (ftxt);
+     writeln (ftxt,''); 
+     i:= 0;
+     k1:=0;
+     k2:= 0;
+   while  i<>1 do
+               {вывод в текст}
+begin
+     if (power(y,k1)-1 <= x) and (x < power(y,k1)) then
+begin
+     i:= 1;
+     write(ftxt,'k = ',k1);
+ break;
+end; 
+
+  if (power(y,k2)-1 <= x) and (x < power(y,k2)) then
+begin
+    i := 1;
+    write(ftxt,'k = ',k2);
+    break;
+end;
+
+    k1:=k1+1;
+    k2:=k2+1;
+end;
+    
+    close (ftxt);
+end.
+
+---------------------------------------------------------------------------
+ввёл 2 3         ввел 3  -2        ввел 0  1     
+k = 1             k= 2             k = 0

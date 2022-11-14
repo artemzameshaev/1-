@@ -1,0 +1,8 @@
+From the history of computer science
+The history of computer science predates the invention of the modern digital computer by many centuries. Machines for calculating fixed numerical tasks have existed since antiquity.
+Almost all of the invented tools were based on cog-wheel to fix decimal notation 10 digits. First sketch of 13-digit cog-wheel adder was drawn by Leonardo da Vinci in about 1492.
+Wilgelm Schickard built the first mechanical calculator in 1623.
+The first real existed mechanical calculus device was designed by Blaise Pascal in 1642. It was 6 (or 8) digital cog-wheel device for adding and subtraction of decimal numbers. In 1673 another 12 digital device was designed by ((Gotfrid))) Wilhelm Leibniz.
+Both of these two innovations were used by an ((Englishman)) Charles Babbag. He designed the project of the Analytical engine, a punched-card-controlled calculator. Demonstration program for it was written by Augusta Ada Byron in 1842. To demonstrate how the Analytical Engine would work, Lady Lovelace included in her notes a program for calculating a certain series of numbers. This was the world’s first computer program.
+As it became clear that computers could be used for more than just mathematical calculations, the field of computer science broadened to study computation in general.
+Computer science began to be established as a distinct academic discipline in the 1960s, with the creation of the first computer science departments and degree programs. Despite its relatively short history as a formal academic discipline, computer science has made a number of fundamental contributions to science and society.

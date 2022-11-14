@@ -1,0 +1,13 @@
+c:\users\sps\documents\visual studio 2015\Projects\CSharp\CSharp\bin\Debug\CSharp.exe.config
+c:\users\sps\documents\visual studio 2015\Projects\CSharp\CSharp\bin\Debug\CSharp.exe
+c:\users\sps\documents\visual studio 2015\Projects\CSharp\CSharp\bin\Debug\CSharp.pdb
+c:\users\sps\documents\visual studio 2015\Projects\CSharp\CSharp\obj\Debug\CSharp.csprojResolveAssemblyReference.cache
+c:\users\sps\documents\visual studio 2015\Projects\CSharp\CSharp\obj\Debug\CSharp.exe
+c:\users\sps\documents\visual studio 2015\Projects\CSharp\CSharp\obj\Debug\CSharp.pdb
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\270б\CSharp\bin\Debug\CSharp.exe.config
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\270б\CSharp\bin\Debug\CSharp.exe
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\270б\CSharp\bin\Debug\CSharp.pdb
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\270б\CSharp\obj\Debug\CSharp.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\270б\CSharp\obj\Debug\CSharp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\270б\CSharp\obj\Debug\CSharp.exe
+C:\Users\User\Desktop\Учеба\Програмирование\Летняя практика\С#\270б\CSharp\obj\Debug\CSharp.pdb

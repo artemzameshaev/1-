@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19" Y="10"/>
+        <UsageCount Value="26"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainmodul.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainModul"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="104"/>
+        <CursorPos X="23" Y="122"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="logicmodul.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LogicModul"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="75" Y="15"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.055\logic.pas"/>
+        <UnitName Value="Logic"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19" Y="7"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.245\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="3" Y="38"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.607\logic.pas"/>
+        <UnitName Value="Logic"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.808\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.874\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.998\project_Stolb.lpr"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.735\logic.pas"/>
+        <UnitName Value="Logic"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="18"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.169\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="35" Y="29"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.409\logic.pas"/>
+        <UnitName Value="Logic"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.754\logic.pas"/>
+        <UnitName Value="Logic"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="9"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\..\COUGAR\AppData\Local\Temp\Rar$DIa0.153\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9923"/>
+        <CursorPos X="52" Y="9937"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="D:\z10\logicmodul.pas"/>
+        <UnitName Value="LogicModul"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="D:\z10\mainmodul.pas"/>
+        <UnitName Value="MainModul"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="22" Y="48"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="70" Column="53" TopLine="69"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="91" Column="3" TopLine="69"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="53" Column="79" TopLine="41"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="60" Column="66" TopLine="41"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="61" Column="75" TopLine="41"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="53" Column="79" TopLine="41"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="82" Column="4" TopLine="63"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="54" TopLine="42"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="90" TopLine="82"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="22" Column="29" TopLine="11"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="94" Column="19" TopLine="90"/>
+      </Position11>
+      <Position12>
+        <Filename Value="logicmodul.pas"/>
+        <Caret Line="20" Column="45" TopLine="3"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="25" Column="44" TopLine="13"/>
+      </Position13>
+      <Position14>
+        <Filename Value="logicmodul.pas"/>
+        <Caret Line="30" Column="42" TopLine="13"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="88" Column="26" TopLine="67"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="100" Column="26" TopLine="85"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="88" Column="9" TopLine="79"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="103" Column="39" TopLine="90"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="102" Column="18" TopLine="98"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="101" Column="9" TopLine="89"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="91" Column="15" TopLine="86"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="102" Column="22" TopLine="89"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="101" Column="11" TopLine="89"/>
+      </Position23>
+      <Position24>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="107" Column="11" TopLine="96"/>
+      </Position24>
+      <Position25>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="90" Column="59" TopLine="78"/>
+      </Position25>
+      <Position26>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="91" Column="10" TopLine="84"/>
+      </Position26>
+      <Position27>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="96" Column="19" TopLine="85"/>
+      </Position27>
+      <Position28>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="60" Column="35" TopLine="46"/>
+      </Position28>
+      <Position29>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="99" Column="46" TopLine="93"/>
+      </Position29>
+      <Position30>
+        <Filename Value="mainmodul.pas"/>
+        <Caret Line="97" Column="7" TopLine="84"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
